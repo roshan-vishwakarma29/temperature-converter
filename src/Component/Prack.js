@@ -38,6 +38,7 @@ const Prack = () => {
                 </div>
             </div>
             <h2>{display}</h2>
+            {/* x */}
         </>
     )
 }
