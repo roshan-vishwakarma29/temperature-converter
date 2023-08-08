@@ -1,0 +1,55 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body,html{
+    overflow-x: hidden;
+    background-color: #DFD7BF;
+  
+}
+.parent{
+    justify-content: center;
+    padding: 150px 100px 100px 100px;
+}
+.main_container{
+    border: 5px solid;
+    width: 50%;
+    height: 50vh;
+    margin: auto;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 10px 10px 7px lightslategray;
+}
+.Celsius_div{
+    padding-top: 10px;
+}
+.Fahrenheit_div{
+    padding-top: 20px;
+}
+.button{
+    padding-top: 20px;
+    
+}
+.celsius{
+    margin: auto;
+}
+.Fahrenheit{
+    margin: auto;
+}
+#Fahrenheit{
+    font-size: 20px;
+    /* padding-left: 30px; */
+    width: 65%;
+
+}
+#celsius{
+    font-size: 20px;
+    width: 70%;
+}
+.main_container label{
+font-weight: 900;
+}
