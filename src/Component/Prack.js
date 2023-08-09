@@ -16,7 +16,7 @@ const Prack = () => {
             <div className='parent'>
                 <div className='main_container'>
                     <div className='Celsius_div'>
-                        <label>Celsius:</label>
+                        <label>Celsius:</label>&nbsp;
                         <input type="number" id='celsius' onChange={(e) => setcelsius(e.target.value)} />
                     </div>
                     <div className='button'>
